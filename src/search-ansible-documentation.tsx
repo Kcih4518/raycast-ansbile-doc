@@ -1,6 +1,6 @@
 import { Action, ActionPanel, List } from "@raycast/api";
 import { useState } from "react";
-import { DocFile, DocsItem, DocsResponse, Language, Preferences } from "./types";
+import { DocFile, DocsItem, DocsResponse, Language } from "./types";
 import useFetcher from "./hooks/useFetcher";
 
 const ICON = "command-icon.png";
