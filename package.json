@@ -2,9 +2,10 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "search-ansible-documentation",
   "title": "Search Ansible Documentation",
-  "description": "Search Ansible \u0003Offical Documentation",
+  "description": "Search Ansible Offical Documentation",
   "icon": "command-icon.png",
   "author": "Kcih4518",
+  "owner": "Avery_Yang",
   "categories": [
     "Documentation"
   ],
@@ -19,7 +20,8 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.39.1"
+    "@raycast/api": "^1.39.1",
+    "axios": "^0.27.2"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
